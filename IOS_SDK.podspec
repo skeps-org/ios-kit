@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.description      = 'This is IOS KIT, a resusable component. To utilize it you camn install it by pod install. It is open source lib'
 
-  s.homepage         = 'https://github.com/skeps-org/ios-kit/tree/main'
+  s.homepage         = 'https://github.com/skeps-org/ios-kit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'devtushar220' => 'dev.tushar@skeps.com' }
