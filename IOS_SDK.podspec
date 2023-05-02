@@ -8,8 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IOS_SDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of IOS_SDK.'
+  s.version          = '1.0.0'
+  s.summary          = 'This is IOS KIT, a resusable component. To utilize it you camn install it by pod install.'
+  s.swift_version = '4.2'
+  s.license = 'MIT'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,20 +19,20 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'This is IOS KIT, a resusable component. To utilize it you camn install it by pod install. It is open source lib'
 
-  s.homepage         = 'https://github.com/devtushar220/IOS_SDK'
+  s.homepage         = 'https://github.com/skeps-org/ios-kit/tree/main'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'devtushar220' => 'dev.tushar@skeps.com' }
-  s.source           = { :git => 'https://github.com/devtushar220/IOS_SDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/skeps-org/ios-kit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '16.0'
 
   s.source_files = 'IOS_SDK/Classes/**/*'
+  s.ios.source_files   = 'IOS_SDK/Classes/**/*'
+  s.osx.source_files   = 'IOS_SDK/Classes/**/*'
   
   # s.resource_bundles = {
   #   'IOS_SDK' => ['IOS_SDK/Assets/*.png']
