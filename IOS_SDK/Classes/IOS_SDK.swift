@@ -8,17 +8,27 @@
 import SwiftUI
 
 //@main
-public class IOS_SDKApp: UILabel {
-    @ObservedObject var network:Network = Network()
-    var body: some Scene {
-        WindowGroup {
-            NavigationView {
-                Text("TRextdtdsts")
-                ContentView()
-            }.environmentObject(network)
+// public class IOS_SDKApp: UILabel {
+//     @ObservedObject var network:Network = Network()
+//     var body: some Scene {
+//         WindowGroup {
+//             NavigationView {
+//                 Text("TRextdtdsts")
+//                 ContentView()
+//             }.environmentObject(network)
             
-        }
-    }
+//         }
+//     }
+// }
+
+public struct IOS_SDKApp: View {
+public init() {}
+@ObservedObject var network:Network = Network()
+public var body: some View {
+       NavigationView {
+          ContentView()
+        }.environmentObject(network)
+     }
 }
 
 //
