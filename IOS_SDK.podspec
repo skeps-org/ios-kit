@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'IOS_SDK'
+  s.name             = 'skeps_financing_sdk'
   s.version          = '1.0.2'
   s.summary          = 'This is IOS KIT, a resusable component. To utilize it you camn install it by pod install.'
   s.swift_version = '4.2'
