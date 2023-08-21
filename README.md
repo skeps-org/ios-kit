@@ -1,4 +1,4 @@
-# IOS_SDK
+# skeps_financing_sdk
 
 [![CI Status](https://img.shields.io/travis/devtushar220/IOS_SDK.svg?style=flat)](https://travis-ci.org/devtushar220/IOS_SDK)
 [![Version](https://img.shields.io/cocoapods/v/IOS_SDK.svg?style=flat)](https://cocoapods.org/pods/IOS_SDK)
