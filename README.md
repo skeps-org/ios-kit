@@ -17,7 +17,7 @@ IOS_SDK is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'IOS_SDK'
+pod 'skeps_financing_sdk'
 ```
 
 ## Author

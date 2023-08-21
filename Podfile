@@ -1,11 +1,11 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'IOS_SDK' do
+target 'skeps_financing_sdk' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-# Pods for IOS_SDK
+# Pods for skeps_financing_sdk
 
 end
 
